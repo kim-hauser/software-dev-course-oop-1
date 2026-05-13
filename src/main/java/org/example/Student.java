@@ -35,6 +35,10 @@ public class Student {
         this.daysAbsent = daysAbsent;
     }
 
+    public void addAbsence() { this.daysAbsent++; }
+
+    public void addBonusPoints(double bonusPoints) { this.grade += bonusPoints; }
+
     public String toString() {
         return name + " " + grade;
     }
